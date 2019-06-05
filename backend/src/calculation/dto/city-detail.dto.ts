@@ -1,3 +1,3 @@
 export class CityDetailDto {
-    sunrise: number;
+  sunrise: number;
 }

@@ -9,7 +9,9 @@ describe('IotKit Controller', () => {
     }).compile();
   });
   it('should be defined', () => {
-    const controller: IotKitController = module.get<IotKitController>(IotKitController);
+    const controller: IotKitController = module.get<IotKitController>(
+      IotKitController,
+    );
     expect(controller).toBeDefined();
   });
 });

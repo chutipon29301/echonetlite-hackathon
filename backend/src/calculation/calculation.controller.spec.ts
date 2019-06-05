@@ -10,7 +10,9 @@ describe('Calculation Controller', () => {
     }).compile();
   });
   it('should be defined', () => {
-    const controller: CalculationController = module.get<CalculationController>(CalculationController);
+    const controller: CalculationController = module.get<CalculationController>(
+      CalculationController,
+    );
     expect(controller).toBeDefined();
   });
 });

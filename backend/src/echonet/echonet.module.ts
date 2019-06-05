@@ -5,4 +5,4 @@ import { echonetProviders } from './echonet.providers';
   providers: [...echonetProviders],
   exports: [...echonetProviders],
 })
-export class EchonetModule { }
+export class EchonetModule {}

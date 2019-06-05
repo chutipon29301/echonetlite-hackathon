@@ -9,6 +9,4 @@ import { DiscoveryModule } from '../discovery/discovery.module';
   controllers: [ControlController],
   exports: [ControlService],
 })
-export class ControlModule {
-
-}
+export class ControlModule {}

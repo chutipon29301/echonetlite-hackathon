@@ -6,14 +6,15 @@ import { IotKitModule } from '../iot-kit/iot-kit.module';
 import { CalculationController } from './calculation.controller';
 
 @Module({
-    imports: [
-        DiscoveryModule,
-        ControlModule,
-        DiscoveryModule,
-        IotKitModule,
-        HttpModule],
-    providers: [CalculationService],
-    exports: [CalculationService],
-    controllers: [CalculationController],
+  imports: [
+    DiscoveryModule,
+    ControlModule,
+    DiscoveryModule,
+    IotKitModule,
+    HttpModule,
+  ],
+  providers: [CalculationService],
+  exports: [CalculationService],
+  controllers: [CalculationController],
 })
-export class CalculationModule { }
+export class CalculationModule {}

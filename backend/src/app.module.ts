@@ -11,7 +11,16 @@ import { UserModule } from './user/user.module';
 import { SearchModule } from './search/search.module';
 
 @Module({
-  imports: [DiscoveryModule, EchonetModule, ControlModule, MonitorModule, IotKitModule, CalculationModule, UserModule, SearchModule],
+  imports: [
+    DiscoveryModule,
+    EchonetModule,
+    ControlModule,
+    MonitorModule,
+    IotKitModule,
+    CalculationModule,
+    UserModule,
+    SearchModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

@@ -10,7 +10,9 @@ describe('Discovery Controller', () => {
     }).compile();
   });
   it('should be defined', () => {
-    const controller: DiscoveryController = module.get<DiscoveryController>(DiscoveryController);
+    const controller: DiscoveryController = module.get<DiscoveryController>(
+      DiscoveryController,
+    );
     expect(controller).toBeDefined();
   });
 });

@@ -3,10 +3,12 @@ import { SearchService } from './search.service';
 import { ElasticsearchModule } from '@nestjs/elasticsearch';
 
 @Module({
-  imports: [ElasticsearchModule.register({
-    host: 'localhost:9200',
-    log: 'trace',
-  })],
+  imports: [
+    ElasticsearchModule.register({
+      host: 'localhost:9200',
+      log: 'trace',
+    }),
+  ],
   providers: [SearchService],
 })
-export class SearchModule { }
+export class SearchModule {}

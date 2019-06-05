@@ -11,4 +11,4 @@ import { IotKitModule } from '../iot-kit/iot-kit.module';
   controllers: [MonitorController],
   exports: [MonitorService],
 })
-export class MonitorModule { }
+export class MonitorModule {}

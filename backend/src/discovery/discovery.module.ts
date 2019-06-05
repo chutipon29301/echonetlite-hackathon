@@ -5,9 +5,9 @@ import { EchonetModule } from '../echonet/echonet.module';
 import { MonitorModule } from '../monitor/monitor.module';
 
 @Module({
-    imports: [EchonetModule],
-    providers: [DiscoveryService],
-    controllers: [DiscoveryController],
-    exports: [DiscoveryService],
+  imports: [EchonetModule],
+  providers: [DiscoveryService],
+  controllers: [DiscoveryController],
+  exports: [DiscoveryService],
 })
-export class DiscoveryModule { }
+export class DiscoveryModule {}
