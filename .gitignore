@@ -1,3 +1,5 @@
 node_modules/
 volumes/
 backend/yarn-error.log
+.vscode
+
